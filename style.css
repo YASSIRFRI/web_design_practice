@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.top-bar
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top-bar .first
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .first .right
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex:2;
+    align-items: center;
+}
+
+.top-bar .right ul
+{
+    display: flex;
+    justify-content:space-between;
+    list-style-type:none;
+}
+.top-bar .right li{
+    padding:30px 30px;
+    font-size: 18px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    
+}
+.top-bar .right li:hover
+{
+    background-color: rgb(32, 167, 99);
+    color:white;
+}
+.img{
+    padding:10px 20px;
+}
+.top-bar .first .left 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.left ul
+{
+    display:flex;
+    flex-direction:row;
+    list-style-type:none;
+
+}
+.top-bar .left li
+{
+    padding:20px 10px;
+}
+
+.left button
+{
+    padding:10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    border:none;
+}
+
+.left li:hover
+{
+    opacity:0,1;
+}
+
+
+.top-bar-second
+{
+    background-color: rgba(15, 14, 14, 0.85);
+    color:white
+}
+.top-bar-second ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.top-bar-second li 
+{
+    padding:10px 20px;
+    list-style-type:none;
+    font-size:large;
+    font-weight: 500;
+    font-family: 'Source Sans Pro';
+}
+
+.top-bar .first .left button
+{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Source Sans Pro';
+}
+
+.top-bar-second li:hover
+{
+    background-color: black;
+}
+
+
+.body
+{
+
+    color:white;
+    background-color: rgba(15, 14, 14, 0.85);
+    height: 100vh;
+    display: none;
+
+}
+
+#pro button{
+    background-color: black;
+    color:white;
+
+
+}
+
+#getcertified button
+{
+
+    background-color: 	rgb(255, 179, 217);
+    color:black;
+
+}
+#freewebsite button
+{
+    background-color: rgb(255, 255, 128);
+    color:black;
+}
+
+#Login button
+{
+    background-color:  rgb(32, 167, 99);
+    color:white;
+}
